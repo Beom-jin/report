@@ -220,3 +220,7 @@ for add in add_list:
             except_list.append(address)
 df = pd.DataFrame(lat_list, columns = ['lat', 'lon'])
 ```
+## 백업
+```
+df.to_csv('백업파일경로')
+```
